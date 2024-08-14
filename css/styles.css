@@ -1,0 +1,86 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   --background: #E6533C; 
+   --color: #E6533C; 
+}
+
+header{
+    background: linear-gradient(to bottom, black 0%, rgb(38, 37, 37) 50%, black 100%);
+}
+
+.nav-title{
+    color: var(--color);
+    font-style: italic;
+    font-weight:800;
+}
+
+
+.btn-primary{
+    background-color: #E6533C;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav-main{
+    padding: 24px;
+}
+
+.hamber-menu{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .hamber-menu{
+        display: block;
+        color: white;
+    }
+    
+    nav ul{
+        display: none;
+    }
+
+    .nav-main{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+}
+
