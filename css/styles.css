@@ -17,8 +17,15 @@
    --color: #E6533C; 
 }
 
+p{
+    font-size: 10px;
+    color: gray;
+}
+
 header{
     background: linear-gradient(to bottom, black 0%, rgb(38, 37, 37) 50%, black 100%);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav-title{
@@ -49,6 +56,8 @@ nav ul{
     display: flex;
     align-items: center;
     color: white;
+    border: 1px solid rgba(128, 128, 128, 0.334);
+    border-radius: 10px;
 }
 
 nav ul li {
@@ -64,7 +73,138 @@ nav ul li {
     display: none;
 }
 
+.banner{
+    display: flex;
+    width: 80%;
+    position: relative;
+}
+.banner-content{
+    width: 40%; 
+    margin: 60px auto 50px;
+}
+.banner-heading{
+   
+    color: white;
+    
+}
+.banner-text{
+    color: gray;
+    margin-bottom: 20px;
+}
+.special{
+    font-style: italic;
+}
+.banner-image{
+    height: 400px;
+    width: 250px;
+}
+.banner-image img{
+    height: 350px;
+    width: 250px;
+}
+.normal-button{
+    border-radius: 10px;
+    padding: 5px;
+    background: none;
+    color: white;
+    border: 1px solid rgb(95, 92, 92);
+}
+.button1{
+    position: absolute;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.321);
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: max-content;
+    top: 66%;
+    left: 70%;
+}
 
+.button2{
+    position: absolute;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.321);
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: max-content;
+    top: 20%;
+    right: -10%;
+}
+
+.habit{
+    max-width: 1200px;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    padding: 40px 150px;
+}
+
+.change{
+    text-align: center;
+}
+
+.image-area{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: space-between;
+    
+}
+
+.img-area{
+    text-align: center;
+    margin: 20px;
+}
+
+.img-area img{
+    border-radius: 50%;
+}
+
+.run-extra{
+    max-width: 1200px;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    padding: 40px 150px;
+}
+.extra-mile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.322);
+    border-radius: 10px;
+}
+
+.extra-left{
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+}
+
+.extra-right{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.extra-right img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.training{
+    max-width: 1200px;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    padding: 40px 150px;
+}
+
+
+/* responsive query */
 
 @media screen and (max-width: 576px){
     .hamber-menu{
