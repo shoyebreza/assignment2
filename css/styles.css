@@ -201,6 +201,80 @@ nav ul li {
     margin: 0 auto;
     color: white;
     padding: 40px 150px;
+    text-align: center;
+}
+
+.training-img{
+    margin: 30px;
+}
+.training-img img{
+    height: 150px;
+    width: 250px;
+    background-image: linear-gradient(#F948B2,#8758F1); 
+    background-clip: initial;
+    color: transparent;
+}
+
+.table-left{
+    width: 50%;
+    color: gray;
+}
+table{
+    width: 300px;
+    text-align: center;
+}
+th, td{
+    border: 1px solid rgba(128, 128, 128, 0.382);
+}
+.tabl-right td{
+    color: gray;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.39);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.team{
+    background-color: rgba(128, 128, 128, 0.477);
+    padding: 20px;
+    border-radius: 5px;
+}
+.team img{
+    margin: 2px;
+    border-radius: 5px;
+}
+footer{
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.footer{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+}
+.fitnes{
+    width: 40%;
+    padding: 60px;
+}
+.get-left, .get-right{
+    padding: 60px;
+    color: white;
+}
+.footer ul, li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    color: gray;
+}
+.reserve{
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 50px;
+}
+hr{
+    margin-bottom: 30px;
 }
 
 
