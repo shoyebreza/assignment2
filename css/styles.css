@@ -179,9 +179,9 @@ nav ul li {
 }
 
 .extra-left{
-    width: 30%;
+    width: 40%;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
 }
 
 .extra-right{
@@ -293,6 +293,67 @@ hr{
     .nav-main{
         flex-direction: row;
         justify-content: space-between;
+        gap: 50px;
+        margin: 0;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-content {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .button2 {
+        top: 40%;
+    }
+    .button1{
+        left: 10%;
+    }
+    .habit{
+        padding: 5px;
+    }
+    .image-area{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .run-extra {
+        padding: 0px;
+
+    }
+
+    .extra-mile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 0px;
+        padding: 0px; 
+        justify-content: space-between;
+        background-color: rgba(128, 128, 128, 0.322);
+        border-radius: 10px;
+    }
+
+    .extra-left {
+        
+        text-align: center;
+        padding:0px;
+    }
+
+    .training{
+        padding: 0px;
+    }
+    .table-left {
+        width: 50%;
+        color: gray;
+        margin-left: 50px;
+    }
+
+    .table-right {
+        width: 50%;
+        color: gray;
+        margin-left: 50px;
     }
 
 
